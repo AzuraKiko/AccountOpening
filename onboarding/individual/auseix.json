@@ -1,0 +1,124 @@
+{
+    "customerReferenceNumber": "string",
+    "applicant": {
+      "entityType": "Individual",
+      "person": {
+        "title": "miss",
+        "firstName": "string",
+        "middleName": "string",
+        "lastName": "string",
+        "otherName": "string",
+        "residentialAddress": {
+          "streetAddress": "12 Main Rd",
+          "city": "Sydney",
+          "region": {
+            "code": "NSW"
+          },
+          "postalCode": "2000",
+          "country": {
+            "code": "AU"
+          }
+        },
+        "postalAddress": {
+          "streetAddress": "12 Main Rd",
+          "city": "Sydney",
+          "region": {
+            "code": "NSW"
+          },
+          "postalCode": "2000",
+          "country": {
+            "code": "AU"
+          }
+        },
+        "emailAddresses": [
+          {
+            "type": "home",
+            "value": "user@example.com",
+            "isPreferred": true
+          }
+        ],
+        "phoneNumbers": [
+          {
+            "type": "home",
+            "value": "614112233454",
+            "isPreferred": true
+          }
+        ],
+        "dateOfBirth": "2019-08-24",
+        "gender": "male",
+        "nationalities": [
+          {
+            "country": "AU",
+            "type": "permanent-resident"
+          }
+        ]
+      },
+      "employment": {
+        "category": "string",
+        "type": "string"
+      },
+      "taxDetails": [
+        {
+          "country": "AU",
+          "isSupplied": true,
+          "taxIdentificationNumber": "string",
+          "nonSupplyReasonCode": "000000000"
+        }
+      ],
+      "marketingOptedOut": true,
+      "identityVerification": {
+        "status": "verified",
+        "completionTimestamp": "2019-08-24T14:15:22Z",
+        "agentName": "string"
+      },
+      "screeningResults": {
+        "status": "verified",
+        "completionTimestamp": "2019-08-24T14:15:22Z",
+        "agentName": "string"
+      }
+    },
+    "tradingProduct": {
+      "type": "domestic-equities",
+      "canTradeWarrants": true,
+      "contractNote": {
+        "type": "digital",
+        "generationType": "day"
+      }
+    },
+    "settlement": {
+      "details": [
+        {
+          "accountName": "string",
+          "branchCode": "string",
+          "accountNumber": "string",
+          "usedForCredits": true,
+          "usedForDebits": true,
+          "usedForDividends": true,
+          "type": "direct-entry"
+        }
+      ],
+      "nettingPolicy": "net",
+      "holdFunds": true,
+      "redirectDividends": true
+    },
+    "adviser": {
+      "code": "string",
+      "brokerageCode": "str"
+    },
+    "termsAndConditions": {
+      "accepted": true,
+      "methodOfAcceptance": "digital",
+      "timestamp": "2019-08-24T14:15:22Z"
+    },
+    "holdingDetails": {
+      "hin": "string",
+      "pid": "06382",
+      "address": {
+        "addressLines": [
+          "string"
+        ],
+        "postCode": "string"
+      },
+      "emailAddress": "user@example.com"
+    }
+  }

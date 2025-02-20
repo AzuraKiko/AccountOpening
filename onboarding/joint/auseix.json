@@ -1,0 +1,177 @@
+{
+  "customerReferenceNumber": "EQ-EQ-319-740-915-R",
+  "applicant": {
+      "parties": [
+          {
+              "person": {
+                  "title": "mr",
+                  "firstName": "duc",
+                  "lastName": "pham applicant one",
+                  "residentialAddress": {
+                      "streetAddress": "Unit 2 Opaque Place ",
+                      "city": "MERNDA",
+                      "region": {
+                          "code": "VIC"
+                      },
+                      "postalCode": "3754",
+                      "country": {
+                          "code": "AU"
+                      }
+                  },
+                  "postalAddress": {
+                      "streetAddress": "Unit 2 Opaque Place ",
+                      "city": "MERNDA",
+                      "region": {
+                          "code": "VIC"
+                      },
+                      "postalCode": "3754",
+                      "country": {
+                          "code": "AU"
+                      }
+                  },
+                  "emailAddresses": [
+                      {
+                          "type": "work",
+                          "value": "duc.pham+1016@equix.com.au",
+                          "isPreferred": true
+                      }
+                  ],
+                  "phoneNumbers": [
+                      {
+                          "type": "mobile",
+                          "value": "61412312312",
+                          "isPreferred": true
+                      }
+                  ],
+                  "dateOfBirth": "1999-11-19",
+                  "gender": "male",
+                  "nationalities": [
+                      {
+                          "country": "AU",
+                          "type": "citizen"
+                      }
+                  ]
+              },
+              "employment": {
+                  "type": "Clerical and administrative workers",
+                  "category": "Clerical and Office Support Workers"
+              },
+              "marketingOptedOut": false,
+              "identityVerification": {
+                  "status": "verified",
+                  "completionTimestamp": "2025-02-15T14:51:50.877Z"
+              },
+              "screeningResults": {
+                  "status": "verified",
+                  "completionTimestamp": "2025-02-15T14:51:50.877Z"
+              },
+              "taxDetails": [
+                  {
+                      "country": "AU",
+                      "isSupplied": false,
+                      "nonSupplyReasonCode": "000000000"
+                  }
+              ]
+          },
+          {
+              "person": {
+                  "title": "miss",
+                  "firstName": "duc",
+                  "lastName": "pham applicant two",
+                  "residentialAddress": {
+                      "streetAddress": "Unit 2 Oppenheimer Street ",
+                      "city": "MACNAMARA",
+                      "region": {
+                          "code": "ACT"
+                      },
+                      "postalCode": "2615",
+                      "country": {
+                          "code": "AU"
+                      }
+                  },
+                  "postalAddress": {
+                      "streetAddress": "Unit 2 Oppenheimer Street ",
+                      "city": "MACNAMARA",
+                      "region": {
+                          "code": "ACT"
+                      },
+                      "postalCode": "2615",
+                      "country": {
+                          "code": "AU"
+                      }
+                  },
+                  "emailAddresses": [
+                      {
+                          "type": "work",
+                          "value": "applicant2@equix.com.au",
+                          "isPreferred": true
+                      }
+                  ],
+                  "phoneNumbers": [
+                      {
+                          "type": "mobile",
+                          "value": "61453452341",
+                          "isPreferred": true
+                      }
+                  ],
+                  "dateOfBirth": "1999-11-19",
+                  "gender": "male",
+                  "nationalities": [
+                      {
+                          "country": "AU",
+                          "type": "citizen"
+                      }
+                  ]
+              },
+              "employment": {
+                  "type": "Chief Executives, General Managers and Legislators",
+                  "category": "Administrative and Support Services"
+              },
+              "marketingOptedOut": false,
+              "identityVerification": {
+                  "status": "verified"
+              },
+              "screeningResults": {
+                  "status": "verified"
+              },
+              "taxDetails": [
+                  {
+                      "country": "AU",
+                      "isSupplied": false,
+                      "nonSupplyReasonCode": "000000000"
+                  }
+              ]
+          }
+      ],
+      "entityType": "Joint"
+  },
+  "tradingProduct": {
+      "type": "domestic-equities",
+      "canTradeWarrants": true,
+      "contractNote": {
+          "type": "digital",
+          "generationType": "day"
+      }
+  },
+  "termsAndConditions": {
+      "accepted": true,
+      "methodOfAcceptance": "digital",
+      "timestamp": "2025-02-15T14:48:30.058Z"
+  },
+  "settlement": {
+      "details": [
+          {
+              "accountName": "Duc Pham",
+              "branchCode": "182512",
+              "accountNumber": "000123456789",
+              "usedForCredits": true,
+              "usedForDebits": true,
+              "usedForDividends": true,
+              "type": "direct-entry"
+          }
+      ],
+      "nettingPolicy": "net",
+      "holdFunds": false,
+      "redirectDividends": false
+  }
+}
