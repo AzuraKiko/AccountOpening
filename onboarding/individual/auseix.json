@@ -1,124 +1,104 @@
 {
-    "customerReferenceNumber": "string",
-    "applicant": {
-      "entityType": "Individual",
+  "customerReferenceNumber": "EQ-EQ-143-310-147-R",
+  "applicant": {
       "person": {
-        "title": "miss",
-        "firstName": "string",
-        "middleName": "string",
-        "lastName": "string",
-        "otherName": "string",
-        "residentialAddress": {
-          "streetAddress": "12 Main Rd",
-          "city": "Sydney",
-          "region": {
-            "code": "NSW"
+          "title": "mrs",
+          "firstName": "Van Anh",
+          "lastName": "Test",
+          "residentialAddress": {
+              "streetAddress": "Unit 115 Melawondi Road ",
+              "city": "MELAWONDI",
+              "region": {
+                  "code": "QLD"
+              },
+              "postalCode": "4570",
+              "country": {
+                  "code": "AU"
+              }
           },
-          "postalCode": "2000",
-          "country": {
-            "code": "AU"
-          }
-        },
-        "postalAddress": {
-          "streetAddress": "12 Main Rd",
-          "city": "Sydney",
-          "region": {
-            "code": "NSW"
+          "postalAddress": {
+              "streetAddress": "Unit 115 Melawondi Road ",
+              "city": "MELAWONDI",
+              "region": {
+                  "code": "QLD"
+              },
+              "postalCode": "4570",
+              "country": {
+                  "code": "AU"
+              }
           },
-          "postalCode": "2000",
-          "country": {
-            "code": "AU"
-          }
-        },
-        "emailAddresses": [
-          {
-            "type": "home",
-            "value": "user@example.com",
-            "isPreferred": true
-          }
-        ],
-        "phoneNumbers": [
-          {
-            "type": "home",
-            "value": "614112233454",
-            "isPreferred": true
-          }
-        ],
-        "dateOfBirth": "2019-08-24",
-        "gender": "male",
-        "nationalities": [
-          {
-            "country": "AU",
-            "type": "permanent-resident"
-          }
-        ]
+          "emailAddresses": [
+              {
+                  "type": "work",
+                  "value": "test837452@gmail.com",
+                  "isPreferred": true
+              }
+          ],
+          "phoneNumbers": [
+              {
+                  "type": "mobile",
+                  "value": "61412345678",
+                  "isPreferred": true
+              }
+          ],
+          "dateOfBirth": "1997-05-08",
+          "gender": "female",
+          "nationalities": [
+              {
+                  "country": "AU",
+                  "type": "citizen"
+              }
+          ]
       },
       "employment": {
-        "category": "string",
-        "type": "string"
+          "type": "Chief Executives, General Managers and Legislators",
+          "category": "Administrative and Support Services"
       },
-      "taxDetails": [
-        {
-          "country": "AU",
-          "isSupplied": true,
-          "taxIdentificationNumber": "string",
-          "nonSupplyReasonCode": "000000000"
-        }
-      ],
-      "marketingOptedOut": true,
+      "marketingOptedOut": false,
       "identityVerification": {
-        "status": "verified",
-        "completionTimestamp": "2019-08-24T14:15:22Z",
-        "agentName": "string"
+          "status": "verified",
+          "completionTimestamp": "2025-02-13T06:34:17.402Z"
       },
       "screeningResults": {
-        "status": "verified",
-        "completionTimestamp": "2019-08-24T14:15:22Z",
-        "agentName": "string"
-      }
-    },
-    "tradingProduct": {
+          "status": "verified",
+          "completionTimestamp": "2025-02-13T06:34:17.402Z"
+      },
+      "taxDetails": [
+          {
+              "country": "AU",
+              "isSupplied": false,
+              "nonSupplyReasonCode": "000000000"
+          }
+      ],
+      "entityType": "Individual"
+  },
+  "tradingProduct": {
       "type": "domestic-equities",
       "canTradeWarrants": true,
       "contractNote": {
-        "type": "digital",
-        "generationType": "day"
+          "type": "digital",
+          "generationType": "day"
       }
-    },
-    "settlement": {
-      "details": [
-        {
-          "accountName": "string",
-          "branchCode": "string",
-          "accountNumber": "string",
-          "usedForCredits": true,
-          "usedForDebits": true,
-          "usedForDividends": true,
-          "type": "direct-entry"
-        }
-      ],
-      "nettingPolicy": "net",
-      "holdFunds": true,
-      "redirectDividends": true
-    },
-    "adviser": {
-      "code": "string",
-      "brokerageCode": "str"
-    },
-    "termsAndConditions": {
+  },
+  "termsAndConditions": {
       "accepted": true,
       "methodOfAcceptance": "digital",
-      "timestamp": "2019-08-24T14:15:22Z"
-    },
-    "holdingDetails": {
-      "hin": "string",
-      "pid": "06382",
-      "address": {
-        "addressLines": [
-          "string"
-        ],
-        "postCode": "string"
-      },
-      "emailAddress": "user@example.com"
-    }
+      "timestamp": "2025-02-13T06:32:52.288Z"
+  },
+  "settlement": {
+      "details": [
+          {
+              "accountName": "Van Anh Test",
+              "branchCode": "182512",
+              "accountNumber": "000123456789",
+              "usedForCredits": true,
+              "usedForDebits": true,
+              "usedForDividends": true,
+              "type": "direct-entry"
+          }
+      ],
+      "nettingPolicy": "net",
+      "holdFunds": false,
+      "redirectDividends": false
   }
+}

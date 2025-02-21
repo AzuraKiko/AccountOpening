@@ -8,21 +8,21 @@ module.exports = {
             enumMap: { Individual: "INDIVIDUAL" },
         },
         "applicant.person.title": {
-            target: "applicant_details.title",
+            target: "applicant_details[].title",
             type: "string",
             enumMap: { mr: "MR", mrs: "MRS", ms: "MS", miss: "MISS" },
         },
 
         "applicant.person.firstName": {
-            target: "applicant_details.first_name",
+            target: "applicant_details[].first_name",
             type: "string",
         },
         "applicant.person.middleName": {
-            target: "applicant_details.middle_name",
+            target: "applicant_details[].middle_name",
             type: ["string", null],
         },
         "applicant.person.lastName": {
-            target: "applicant_details.last_name",
+            target: "applicant_details[].last_name",
             type: "string",
         },
         "applicant.person.residentialAddress": {
@@ -30,31 +30,31 @@ module.exports = {
         },
         "applicant.person.residentialAddress.streetAddress": {
             target: [
-                "applicant_details.residential_address_address_line_1",
-                "applicant_details.residential_address_address_line_2"
+                "applicant_details[].residential_address_address_line_1",
+                "applicant_details[].residential_address_address_line_2"
             ],
             type: "string",
         },
         "applicant.person.residentialAddress.city": {
-            target: "applicant_details.residential_address_city_suburb",
+            target: "applicant_details[].residential_address_city_suburb",
             type: "string",
         },
         "applicant.person.residentialAddress.region": {
             type: "object",
         },
         "applicant.person.residentialAddress.region.code": {
-            target: "applicant_details.residential_address_state",
+            target: "applicant_details[].residential_address_state",
             type: "string",
         },
         "applicant.person.residentialAddress.postalCode": {
-            target: "applicant_details.residential_address_postcode",
+            target: "applicant_details[].residential_address_postcode",
             type: "string",
         },
         "applicant.person.residentialAddress.country": {
             type: "object",
         },
         "applicant.person.residentialAddress.country.code": {
-            target: "applicant_details.residential_address_country",
+            target: "applicant_details[].residential_address_country",
             type: "string",
             enumMap: { ANDORRA: "AD", AUSTRALIA: "AU", BAHRAIN: "BH" },
         },
@@ -63,59 +63,59 @@ module.exports = {
         },
         "applicant.person.postalAddress.streetAddress": {
             target: [
-                "applicant_details.postal_address_address_line_1",
-                "applicant_details.postal_address_address_line_2"
+                "applicant_details[].postal_address_address_line_1",
+                "applicant_details[].postal_address_address_line_2"
             ],
             type: "string",
 
         },
         "applicant.person.postalAddress.city": {
-            target: "applicant_details.postal_address_city_suburb",
+            target: "applicant_details[].postal_address_city_suburb",
             type: "string",
         },
         "applicant.person.postalAddress.region": {
             type: "object",
         },
         "applicant.person.postalAddress.region.code": {
-            target: "applicant_details.postal_address_state",
+            target: "applicant_details[].postal_address_state",
             type: "string",
         },
         "applicant.person.postalAddress.postalCode": {
-            target: "applicant_details.postal_address_postcode",
+            target: "applicant_details[].postal_address_postcode",
             type: "string",
         },
         "applicant.person.postalAddress.country": {
             type: "object",
         },
         "applicant.person.postalAddress.country.code": {
-            target: "applicant_details.postal_address_country",
+            target: "applicant_details[].postal_address_country",
             type: "string",
             enumMap: { ANDORRA: "AD", AUSTRALIA: "AU", BAHRAIN: "BH" },
         },
         "applicant.person.emailAddresses": {
             type: "array",
         },
-        "applicant.person.emailAddresses.type": {
+        "applicant.person.emailAddresses[].type": {
             type: "string",
             defaultValue: "work",
         },
-        "applicant.person.emailAddresses.value": {
-            target: "applicant_details.applicant_email",
+        "applicant.person.emailAddresses[].value": {
+            target: "applicant_details[].applicant_email",
             type: "string",
         },
-        "applicant.person.emailAddresses.isPreferred": {
+        "applicant.person.emailAddresses[].isPreferred": {
             type: "boolean",
             defaultValue: true,
         },
         "applicant.person.phoneNumbers": {
             type: "array",
         },
-        "applicant.person.phoneNumbers.type": {
+        "applicant.person.phoneNumbers[].type": {
             type: "string",
             defaultValue: "mobile",
         },
-        "applicant.person.phoneNumbers.value": {
-            target: "applicant_details.applicant_mobile_phone",
+        "applicant.person.phoneNumbers[].value": {
+            target: "applicant_details[].applicant_mobile_phone",
             type: "string",
         },
         "applicant.person.phoneNumbers.isPreferred": {
@@ -123,35 +123,35 @@ module.exports = {
             defaultValue: true,
         },
         "applicant.person.dateOfBirth": {
-            target: "applicant_details.dob",
+            target: "applicant_details[].dob",
             type: "string",
         },
         "applicant.person.gender": {
-            target: "applicant_details.gender",
+            target: "applicant_details[].gender",
             type: "string",
             enumMap: { mr: "MR", mrs: "MRS", ms: "MS", miss: "MISS" },
         },
         "applicant.person.nationalities": {
             type: "array",
         },
-        "applicant.person.nationalities.country": {
-            target: "applicant_details.nationality",
+        "applicant.person.nationalities[].country": {
+            target: "applicant_details[].nationality",
             type: "string",
             enumMap: { ANDORRA: "AD", AUSTRALIA: "AU", BAHRAIN: "BH" },
         },
-        "applicant.person.nationalities.type": {
+        "applicant.person.nationalities[].type": {
             type: "string",
             defaultValue: "citizen",
         },
-        "applicantt.employment": {
+        "applicant.employment": {
             type: "object",
         },
         "applicant.employment.type": {
-            target: "applicant_details.occupation_type",
+            target: "applicant_details[].occupation_type",
             type: "string",
         },
         "applicant.employment.category": {
-            target: "applicant_details.occupation_category",
+            target: "applicant_details[].occupation_category",
             type: "string",
         },
         "applicant.taxDetails": {
@@ -162,7 +162,7 @@ module.exports = {
             defaultValue: "AU",
         },
         "applicant.taxDetails.isSupplied": {
-            type: "string",
+            type: "boolean",
             defaultValue: false,
         },
         "applicant.taxDetails.taxIdentificationNumber": {
@@ -180,7 +180,7 @@ module.exports = {
             defaultValue: "verified",
         },
         "applicant.identityVerification.completionTimestamp": {
-            target: "applicant_details.uploaded_documents.last_updated",
+            target: "applicant_details[].uploaded_documents[].last_updated",
             type: "string",
         },
         "applicant.identityVerification.agentName": {
@@ -194,7 +194,7 @@ module.exports = {
             defaultValue: "verified",
         },
         "applicant.screeningResults.completionTimestamp": {
-            target: "applicant_details.uploaded_documents.last_updated",
+            target: "applicant_details[].uploaded_documents[].last_updated",
             type: "string",
         },
         "applicant.screeningResults.agentName": {
@@ -228,31 +228,31 @@ module.exports = {
         "settlement.details": {
             type: "array",
         },
-        "settlement.details.accountName": {
+        "settlement.details[].accountName": {
             target: "bank_account_name",
             type: "string",
         },
-        "settlement.details.branchCode": {
+        "settlement.details[].branchCode": {
             target: "bank_bsb",
             type: "string",
         },
-        "settlement.details.accountNumber": {
+        "settlement.details[].accountNumber": {
             target: "bank_account_number",
             type: "string",
         },
-        "settlement.details.usedForCredits": {
+        "settlement.details[].usedForCredits": {
             type: "boolean",
             defaultValue: true,
         },
-        "settlement.details.usedForDebits": {
+        "settlement.details[].usedForDebits": {
             type: "boolean",
             defaultValue: true,
         },
-        "settlement.details.usedForDividends": {
+        "settlement.details[].usedForDividends": {
             type: "boolean",
             defaultValue: true,
         },
-        "settlement.details.type": {
+        "settlement.details[].type": {
             type: "string",
             defaultValue: "direct-entry",
         },
@@ -267,11 +267,11 @@ module.exports = {
             type: ["boolean", null]
         },
         adviser: {
-            type: "object",
+            type: ["object", null],
         },
         "adviser.code": {
             target: "advisor_code",
-            type: "string",
+            type: ["string", null],
         },
         "adviser.brokerageCode": {
             type: ["string", null]
@@ -292,30 +292,30 @@ module.exports = {
             type: "string",
         },
         holdingDetails: {
-            type: "object",
+            type: ["object", null],
         },
         "holdingDetails.hin": {
             target: "settlement_existing_hin",
-            type: "string",
+            type: ["string", null],
         },
         "holdingDetails.pid": {
             target: "settlement_pid",
-            type: "string",
+            type: ["string", null],
         },
         "holdingDetails.address": {
-            type: "object",
+            type: ["object", null],
         },
         "holdingDetails.address.addressLines": {
             target: "holdingDetails_addressLines",
-            type: "array",
+            type: ["array, null"],
         },
         "holdingDetails.address.postCode": {
-            target: "applicant_details.residential_address_postcode",
-            type: "string",
+            target: "applicant_details[].residential_address_postcode",
+            type: ["string", null],
         },
         "holdingDetails.emailAddress": {
-            target: "applicant_details.applicant_email",
-            type: "string",
+            target: "applicant_details[].applicant_email",
+            type: ["string", null],
         },
     },
 };

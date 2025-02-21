@@ -134,16 +134,16 @@ module.exports = {
         "applicant.person.nationalities": {
             type: "array",
         },
-        "applicant.person.nationalities.country": {
+        "applicant.person.nationalities[0].country": {
             target: "applicant_details[0].nationality",
             type: "string",
             enumMap: { ANDORRA: "AD", AUSTRALIA: "AU", BAHRAIN: "BH" },
         },
-        "applicant.person.nationalities.type": {
+        "applicant.person.nationalities[0].type": {
             type: "string",
             defaultValue: "citizen",
         },
-        "applicantt.employment": {
+        "applicant.employment": {
             type: "object",
         },
         "applicant.employment.type": {
@@ -162,7 +162,7 @@ module.exports = {
             defaultValue: "AU",
         },
         "applicant.taxDetails.isSupplied": {
-            type: "string",
+            type: "boolean",
             defaultValue: false,
         },
         "applicant.taxDetails.taxIdentificationNumber": {
@@ -267,11 +267,11 @@ module.exports = {
             type: ["boolean", null]
         },
         adviser: {
-            type: "object",
+            type: ["object", null],
         },
         "adviser.code": {
             target: "advisor_code",
-            type: "string",
+            type: ["string", null],
         },
         "adviser.brokerageCode": {
             type: ["string", null]
@@ -292,30 +292,30 @@ module.exports = {
             type: "string",
         },
         holdingDetails: {
-            type: "object",
+            type: ["object", null],
         },
         "holdingDetails.hin": {
             target: "settlement_existing_hin",
-            type: "string",
+            type: ["string", null],
         },
         "holdingDetails.pid": {
             target: "settlement_pid",
-            type: "string",
+            type: ["string", null],
         },
         "holdingDetails.address": {
-            type: "object",
+            type: ["object", null],
         },
         "holdingDetails.address.addressLines": {
             target: "holdingDetails_addressLines",
-            type: "array",
+            type: ["array, null"],
         },
         "holdingDetails.address.postCode": {
             target: "applicant_details[0].residential_address_postcode",
-            type: "string",
+            type: ["string", null],
         },
         "holdingDetails.emailAddress": {
             target: "applicant_details[0].applicant_email",
-            type: "string",
+            type: ["string", null],
         },
     },
 };
