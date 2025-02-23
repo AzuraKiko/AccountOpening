@@ -1,0 +1,170 @@
+[
+  {
+    "ask": {
+      "0": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.04,
+        "quantity": 5,
+        "number_of_trades": 2
+      },
+      "1": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.04,
+        "quantity": 43,
+        "number_of_trades": 2
+      },
+      "2": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.09,
+        "quantity": 79,
+        "number_of_trades": 6
+      },
+      "3": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.22,
+        "quantity": 63,
+        "number_of_trades": 2
+      },
+      "4": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.38,
+        "quantity": 44,
+        "number_of_trades": 9
+      },
+      "5": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.45,
+        "quantity": 100,
+        "number_of_trades": 7
+      },
+      "6": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.71,
+        "quantity": 23,
+        "number_of_trades": 5
+      },
+      "7": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.79,
+        "quantity": 70,
+        "number_of_trades": 8
+      },
+      "8": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.94,
+        "quantity": 33,
+        "number_of_trades": 2
+      },
+      "9": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Ask",
+        "price": 35.95,
+        "quantity": 15,
+        "number_of_trades": 10
+      }
+    },
+    "bid": {
+      "0": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.95,
+        "quantity": 18,
+        "number_of_trades": 7
+      },
+      "1": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.89,
+        "quantity": 56,
+        "number_of_trades": 9
+      },
+      "2": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.84,
+        "quantity": 87,
+        "number_of_trades": 8
+      },
+      "3": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.48,
+        "quantity": 52,
+        "number_of_trades": 1
+      },
+      "4": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.46,
+        "quantity": 77,
+        "number_of_trades": 3
+      },
+      "5": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.33,
+        "quantity": 27,
+        "number_of_trades": 6
+      },
+      "6": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.25,
+        "quantity": 39,
+        "number_of_trades": 6
+      },
+      "7": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.1,
+        "quantity": 85,
+        "number_of_trades": 5
+      },
+      "8": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.08,
+        "quantity": 95,
+        "number_of_trades": 10
+      },
+      "9": {
+        "symbol": "ANZ",
+        "exchanges": "ASX1",
+        "side": "Bid",
+        "price": 34.07,
+        "quantity": 71,
+        "number_of_trades": 8
+      }
+    },
+    "total_ask_size": 475,
+    "total_bid_size": 607
+  }
+]

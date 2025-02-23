@@ -1,0 +1,25 @@
+[
+  {
+    "exchange": "ASX1",
+    "symbol": "ANZ",
+    "ask_price": 35.04,
+    "ask_size": 5,
+    "bid_price": 34.95,
+    "bid_size": 18,
+    "change_percent": -1.4379,
+    "change_point": -0.42,
+    "close": 28.79,
+    "high": 29.5,
+    "low": 28.79,
+    "open": 29.5,
+    "trade_price": 40,
+    "trade_size": 96,
+    "updated": 1740252669522,
+    "volume": 8750161,
+    "previous_close": 29.21,
+    "value_traded": 254421769.885,
+    "is_close_updated": true,
+    "pnl_price_type": null,
+    "indicative_price": null
+  }
+]

@@ -1,14 +1,14 @@
 const eql = require("deep-equal");
-const { fields } = require("../onboarding/config/mapIndividual");
-const { equixData } = require("../onboarding/config/hodingAddress");
-const { readJSONfile } = require("./readJSONfile");
-const { checkType } = require("./checkType");
-const { normalizeValue } = require("./normalizeValue");
-const { getValueArray } = require("./getValue");
-const { loggerTableType, loggerTableMatch } = require("../logger/loggerTableAll");
-const { saveFile } = require("./savefile");
-const { loggerSimpleMatch } = require("../logger/loggerSimple");
-const { loggerFailType ,loggerFailMatch } = require("../logger/loggerTableFail");
+const { fields } = require("../config/mapIndividual");
+const { equixData } = require("../config/hodingAddress");
+const { readJSONfile } = require("../../common/readJSONfile");
+const { checkType } = require("../../common/checkType");
+const { normalizeValue } = require("../../common/normalizeValue");
+const { getValueArray } = require("../../common/getValue");
+const { loggerTableType, loggerTableMatch } = require("../../logger/loggerTableAll");
+const { saveFile } = require("../../common/saveFile");
+const { loggerSimpleMatch } = require("../../logger/loggerSimple");
+const { loggerFailType ,loggerFailMatch } = require("../../logger/loggerTableFail");
 
 // Đường dẫn tới file JSON Auseix
 let auseixData = readJSONfile("../onboarding/individual/auseix.json");

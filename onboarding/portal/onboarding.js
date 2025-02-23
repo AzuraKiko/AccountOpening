@@ -1,7 +1,7 @@
 const axios = require("axios");
 const { OPENING_URL, equix_id } = require("../config/config");
 const { token } = require("../portal/tokenPortal");
-const { saveFile } = require("../../common/savefile");
+const { saveFile } = require("../../common/saveFile");
 
 // Hàm lấy thông tin onboarding theo equix_id và ghi vào file equix.json trong thư mục Individual
 const getDetailOnboarding = async () => {

@@ -1,29 +1,18 @@
-const eql = require('lodash').isEqual;
-// So sánh các phần tử trong mảng không quan tâm thứ tự
-const compareArrays = (arr1, arr2) => {
-    if (!Array.isArray(arr1) || !Array.isArray(arr2)) return false;
-    if (arr1.length !== arr2.length) return false;
- 
-    // Xác định giá trị so sánh và trạng thái match   
-    const normalizeObject = (obj) => {
-        if (Array.isArray(obj)) return obj.map(normalizeObject).sort();
-        if (typeof obj === "object" && obj !== null) {
-            return Object.keys(obj)
-                .sort()
-                .reduce((acc, key) => {
-                    acc[key] = normalizeObject(obj[key]);
-                    return acc;
-                }, {});
-        }
-        return obj;
-    };
+const compareArrayS = (arr1, arr2, fieldName = 'defaultField') => {
+    const set1 = new Set(arr1);
+    const set2 = new Set(arr2);
 
-    const normalizedArr1 = arr1.map(normalizeObject);
-    const normalizedArr2 = arr2.map(normalizeObject);
-
-    return normalizedArr1.every((item1) =>
-        normalizedArr2.some((item2) => eql(item1, item2))
-    );
+    const isEqual = set1.size === set2.size && [...set1].every(value => set2.has(value));
+    return [{
+        fieldName: fieldName,
+        matchResult: isEqual ? "✅" : "❌",
+    }];
 };
 
-module.exports = { compareArrays };
+module.exports = { compareArrayS };
+
+
+// const arr1 = [1, 2, 3, 4];
+// const arr2 = [1, 2, 3, 4];
+
+// console.table(compareArrayS(arr1, arr2, 'Test1')); // ✅

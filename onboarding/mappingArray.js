@@ -1,17 +1,17 @@
 const eql = require("deep-equal");
 const { Parser } = require("json2csv");
 
-const { typeSelect} = require("../onboarding/config/config");
+const { typeSelect} = require("./config/config");
 const mapType = "mapJoint";
 const { fields } = require(`../onboarding/config/${mapType}`);
-const { equixData } = require("../onboarding/config/hodingAddress");
+const { equixData } = require("./config/hodingAddress");
 
-const { readJSONfile } = require("./readJSONfile");
-const { checkType } = require("./checkType");
-const { normalizeValue } = require("./normalizeValue");
-const { getValueArray } = require("./getValue");
-const { compareArrays } = require("./compareArrays");
-const { saveFile } = require("./savefile");
+const { readJSONfile } = require("../common/readJSONfile");
+const { checkType } = require("../common/checkType");
+const { normalizeValue } = require("../common/normalizeValue");
+const { getValueArray } = require("../common/getValue");
+const { compareArrays } = require("../common/compareArrays");
+const { saveFile } = require("../common/saveFile");
 
 const { loggerTableType, loggerTableMatch } = require("../logger/loggerTableAll");
 const { loggerSimpleMatch } = require("../logger/loggerSimple");

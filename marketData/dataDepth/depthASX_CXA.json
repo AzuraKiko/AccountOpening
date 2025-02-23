@@ -1,0 +1,173 @@
+[
+  {
+    "symbol": "ANZ",
+    "depth": {
+      "ask": {
+        "0": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 41.14,
+          "quantity": 85,
+          "number_of_trades": 1,
+          "source": "CXA"
+        },
+        "1": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 40.98,
+          "quantity": 73,
+          "number_of_trades": 2,
+          "source": "CXA"
+        },
+        "2": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 40.83,
+          "quantity": 29,
+          "number_of_trades": 8,
+          "source": "CXA"
+        },
+        "3": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 40.69,
+          "quantity": 76,
+          "number_of_trades": 8,
+          "source": "CXA"
+        },
+        "4": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 40.65,
+          "quantity": 47,
+          "number_of_trades": 9,
+          "source": "CXA"
+        },
+        "5": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 40.6,
+          "quantity": 52,
+          "number_of_trades": 4,
+          "source": "CXA"
+        },
+        "6": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 40.52,
+          "quantity": 5,
+          "number_of_trades": 5,
+          "source": "CXA"
+        },
+        "7": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 40.41,
+          "quantity": 25,
+          "number_of_trades": 1,
+          "source": "CXA"
+        },
+        "8": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "price": 40.38,
+          "quantity": 34,
+          "number_of_trades": 5
+        }
+      },
+      "bid": {
+        "0": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 38.81,
+          "quantity": 54,
+          "number_of_trades": 6,
+          "source": "CXA"
+        },
+        "1": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 39.14,
+          "quantity": 12,
+          "number_of_trades": 9,
+          "source": "CXA"
+        },
+        "2": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 39.19,
+          "quantity": 107,
+          "number_of_trades": 5
+        },
+        "3": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 39.2,
+          "quantity": 62,
+          "number_of_trades": 8,
+          "source": "CXA"
+        },
+        "4": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 39.21,
+          "quantity": 79,
+          "number_of_trades": 6,
+          "source": "CXA"
+        },
+        "5": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 39.25,
+          "quantity": 27,
+          "number_of_trades": 1,
+          "source": "CXA"
+        },
+        "6": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 39.33,
+          "quantity": 6,
+          "number_of_trades": 7,
+          "source": "CXA"
+        },
+        "7": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 39.41,
+          "quantity": 99,
+          "number_of_trades": 5,
+          "source": "CXA"
+        },
+        "8": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "price": 39.43,
+          "quantity": 94,
+          "number_of_trades": 3,
+          "source": "CXA"
+        }
+      },
+      "total_ask_size": 426,
+      "total_bid_size": 540
+    }
+  }
+]

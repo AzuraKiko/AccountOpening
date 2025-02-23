@@ -1,6 +1,6 @@
 const axios = require("axios");
 const { LOGIN_URL, grant_type, client_id, client_secret } = require("../config/config");
-const { saveFile } = require("../../common/savefile");
+const { saveFile } = require("../../common/saveFile");
 const getToken = async () => {
     try {
         const response = await axios.post(LOGIN_URL,

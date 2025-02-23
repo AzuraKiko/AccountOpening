@@ -1,0 +1,357 @@
+[
+  {
+    "symbol": "ANZ",
+    "trades": {
+      "0": {
+        "price": 40,
+        "quantity": 96,
+        "id": 1740240490529,
+        "time": 1740240490,
+        "source": "ASX"
+      },
+      "1": {
+        "price": 37,
+        "quantity": 19,
+        "id": 1740239499435,
+        "time": 1740239499,
+        "source": "ASX"
+      },
+      "2": {
+        "price": 36,
+        "quantity": 65,
+        "id": 1740239476539,
+        "time": 1740239476,
+        "source": "ASX"
+      },
+      "3": {
+        "price": 38,
+        "quantity": 23,
+        "id": 1740239439935,
+        "time": 1740239439,
+        "source": "ASX"
+      },
+      "4": {
+        "price": 38,
+        "quantity": 47,
+        "id": 1740237825999,
+        "time": 1740237825,
+        "source": "ASX"
+      },
+      "5": {
+        "price": 39,
+        "quantity": 32,
+        "id": 1740237590600,
+        "time": 1740237576,
+        "source": "ASX"
+      },
+      "6": {
+        "price": 39,
+        "quantity": 72,
+        "id": 1740235778840,
+        "time": 1740235778,
+        "source": "ASX"
+      },
+      "7": {
+        "price": 36,
+        "quantity": 35,
+        "id": 1740235092087,
+        "time": 1740235092,
+        "source": "ASX"
+      },
+      "8": {
+        "price": 36,
+        "quantity": 35,
+        "id": 1740235434718,
+        "time": 1740235092,
+        "source": "ASX"
+      },
+      "9": {
+        "price": 38,
+        "quantity": 61,
+        "id": 1740234887788,
+        "time": 1740234887,
+        "source": "ASX"
+      },
+      "10": {
+        "price": 38,
+        "quantity": 61,
+        "id": 1740235434710,
+        "time": 1740234887,
+        "source": "ASX"
+      },
+      "11": {
+        "price": 35,
+        "quantity": 5,
+        "id": 1740234827755,
+        "time": 1740234827,
+        "source": "ASX"
+      },
+      "12": {
+        "price": 35,
+        "quantity": 5,
+        "id": 1740234827923,
+        "time": 1740234827,
+        "source": "ASX"
+      },
+      "13": {
+        "price": 38,
+        "quantity": 48,
+        "id": 1740233977528,
+        "time": 1740233977,
+        "source": "ASX"
+      },
+      "14": {
+        "price": 35,
+        "quantity": 86,
+        "id": 1740233971788,
+        "time": 1740233971,
+        "source": "ASX"
+      },
+      "15": {
+        "price": 39,
+        "quantity": 9,
+        "id": 1740233758860,
+        "time": 1740233758,
+        "source": "ASX"
+      },
+      "16": {
+        "price": 37,
+        "quantity": 37,
+        "id": 1740233396922,
+        "time": 1740233396,
+        "source": "ASX"
+      },
+      "17": {
+        "price": 39,
+        "quantity": 73,
+        "id": 1740233333992,
+        "time": 1740233333,
+        "source": "ASX"
+      },
+      "18": {
+        "price": 38,
+        "quantity": 61,
+        "id": 1740233231166,
+        "time": 1740233231,
+        "source": "ASX"
+      },
+      "19": {
+        "price": 37,
+        "quantity": 51,
+        "id": 1740233187841,
+        "time": 1740233187,
+        "source": "ASX"
+      },
+      "20": {
+        "price": 40,
+        "quantity": 48,
+        "id": 1740233136435,
+        "time": 1740233136,
+        "source": "ASX"
+      },
+      "21": {
+        "price": 35,
+        "quantity": 55,
+        "id": 1740231852988,
+        "time": 1740231852,
+        "source": "ASX"
+      },
+      "22": {
+        "price": 35,
+        "quantity": 44,
+        "id": 1740231769761,
+        "time": 1740231769,
+        "source": "ASX"
+      },
+      "23": {
+        "price": 38,
+        "quantity": 92,
+        "id": 1740231656580,
+        "time": 1740231656,
+        "source": "ASX"
+      },
+      "24": {
+        "price": 36,
+        "quantity": 45,
+        "id": 1740231618692,
+        "time": 1740231618,
+        "source": "ASX"
+      },
+      "25": {
+        "price": 39,
+        "quantity": 38,
+        "id": 1740231608549,
+        "time": 1740231608,
+        "source": "ASX"
+      },
+      "26": {
+        "price": 39,
+        "quantity": 94,
+        "id": 1740231603126,
+        "time": 1740231602,
+        "source": "ASX"
+      },
+      "27": {
+        "price": 39,
+        "quantity": 14,
+        "id": 1740231558054,
+        "time": 1740231547,
+        "source": "ASX"
+      },
+      "28": {
+        "price": 39,
+        "quantity": 15,
+        "id": 1740231526403,
+        "time": 1740231475,
+        "source": "ASX"
+      },
+      "29": {
+        "price": 40,
+        "quantity": 77,
+        "id": 1740231514590,
+        "time": 1740231475,
+        "source": "ASX"
+      },
+      "30": {
+        "price": 39,
+        "quantity": 10,
+        "id": 1740231485887,
+        "time": 1740231475,
+        "source": "ASX"
+      },
+      "31": {
+        "price": 39,
+        "quantity": 51,
+        "id": 1740231410633,
+        "time": 1740231410,
+        "source": "ASX"
+      },
+      "32": {
+        "price": 35,
+        "quantity": 79,
+        "id": 1740231410527,
+        "time": 1740231410,
+        "source": "ASX"
+      },
+      "33": {
+        "price": 35,
+        "quantity": 100,
+        "id": 1740231410437,
+        "time": 1740231410,
+        "source": "ASX"
+      },
+      "34": {
+        "price": 38,
+        "quantity": 42,
+        "id": 1740231218620,
+        "time": 1740231164,
+        "source": "ASX"
+      },
+      "35": {
+        "price": 37,
+        "quantity": 38,
+        "id": 1740231218613,
+        "time": 1740231164,
+        "source": "ASX"
+      },
+      "36": {
+        "price": 36,
+        "quantity": 25,
+        "id": 1740231218609,
+        "time": 1740231164,
+        "source": "ASX"
+      },
+      "37": {
+        "price": 35,
+        "quantity": 14,
+        "id": 1740231218600,
+        "time": 1740231153,
+        "source": "ASX"
+      },
+      "38": {
+        "price": 37,
+        "quantity": 3,
+        "id": 1740231218595,
+        "time": 1740231152,
+        "source": "ASX"
+      },
+      "39": {
+        "price": 37,
+        "quantity": 79,
+        "id": 1740231218589,
+        "time": 1740231152,
+        "source": "ASX"
+      },
+      "40": {
+        "price": 37,
+        "quantity": 59,
+        "id": 1740230937753,
+        "time": 1740230925,
+        "source": "ASX"
+      },
+      "41": {
+        "price": 40,
+        "quantity": 81,
+        "id": 1740230937745,
+        "time": 1740230924,
+        "source": "ASX"
+      },
+      "42": {
+        "price": 39,
+        "quantity": 87,
+        "id": 1740230937736,
+        "time": 1740230924,
+        "source": "ASX"
+      },
+      "43": {
+        "price": 35,
+        "quantity": 41,
+        "id": 1740225221246,
+        "time": 1740225221,
+        "source": "CXA"
+      },
+      "44": {
+        "price": 35,
+        "quantity": 41,
+        "id": 1740225221251,
+        "time": 1740225221,
+        "source": "CXA"
+      },
+      "45": {
+        "price": 39,
+        "quantity": 89,
+        "id": 1740224802125,
+        "time": 1740224802,
+        "source": "CXA"
+      },
+      "46": {
+        "price": 39,
+        "quantity": 89,
+        "id": 1740224802136,
+        "time": 1740224802,
+        "source": "CXA"
+      },
+      "47": {
+        "price": 35,
+        "quantity": 90,
+        "id": 1740224516923,
+        "time": 1740224516,
+        "source": "CXA"
+      },
+      "48": {
+        "price": 35,
+        "quantity": 90,
+        "id": 1740224516926,
+        "time": 1740224516,
+        "source": "CXA"
+      },
+      "49": {
+        "price": 40,
+        "quantity": 15,
+        "id": 1740224475657,
+        "time": 1740224475,
+        "source": "CXA"
+      }
+    }
+  }
+]

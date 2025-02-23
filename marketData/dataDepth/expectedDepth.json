@@ -1,0 +1,184 @@
+[
+  {
+    "symbol": "ANZ",
+    "depth": {
+      "ask": {
+        "0": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 34,
+          "number_of_trades": 5,
+          "price": 40.38,
+          "source": "CXA"
+        },
+        "1": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 25,
+          "number_of_trades": 1,
+          "price": 40.41,
+          "source": "CXA"
+        },
+        "2": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 5,
+          "number_of_trades": 5,
+          "price": 40.52,
+          "source": "CXA"
+        },
+        "3": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 52,
+          "number_of_trades": 4,
+          "price": 40.6,
+          "source": "CXA"
+        },
+        "4": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 47,
+          "number_of_trades": 9,
+          "price": 40.65,
+          "source": "CXA"
+        },
+        "5": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 76,
+          "number_of_trades": 8,
+          "price": 40.69,
+          "source": "CXA"
+        },
+        "6": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 29,
+          "number_of_trades": 8,
+          "price": 40.83,
+          "source": "CXA"
+        },
+        "7": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 73,
+          "number_of_trades": 2,
+          "price": 40.98,
+          "source": "CXA"
+        },
+        "8": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Ask",
+          "quantity": 85,
+          "number_of_trades": 1,
+          "price": 41.14,
+          "source": "CXA"
+        }
+      },
+      "bid": {
+        "0": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 94,
+          "number_of_trades": 3,
+          "price": 39.43,
+          "source": "CXA"
+        },
+        "1": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 99,
+          "number_of_trades": 5,
+          "price": 39.41,
+          "source": "CXA"
+        },
+        "2": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 6,
+          "number_of_trades": 7,
+          "price": 39.33,
+          "source": "CXA"
+        },
+        "3": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 27,
+          "number_of_trades": 1,
+          "price": 39.25,
+          "source": "CXA"
+        },
+        "4": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 79,
+          "number_of_trades": 6,
+          "price": 39.21,
+          "source": "CXA"
+        },
+        "5": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 62,
+          "number_of_trades": 8,
+          "price": 39.2,
+          "source": "CXA"
+        },
+        "6": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 107,
+          "number_of_trades": 5,
+          "price": 39.19,
+          "source": "CXA"
+        },
+        "7": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 12,
+          "number_of_trades": 9,
+          "price": 39.14,
+          "source": "CXA"
+        },
+        "8": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 54,
+          "number_of_trades": 6,
+          "price": 38.81,
+          "source": "CXA"
+        },
+        "9": {
+          "symbol": "ANZ",
+          "exchanges": "ASX",
+          "side": "Bid",
+          "quantity": 18,
+          "number_of_trades": 7,
+          "price": 34.95,
+          "source": "ASX"
+        }
+      },
+      "total_ask_size": 426,
+      "total_bid_size": 1147
+    }
+  }
+]
